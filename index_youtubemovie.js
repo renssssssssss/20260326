@@ -206,11 +206,6 @@ function submitCode(){
     player.loadVideoById(inputtedVideoId);
 }
 
-//検索バーに出るURl（〃いける）
-//PC検索バーのリンク例
-//https://www.youtube.com/watch?v=ZJ-Je8uvmjw&t=29s
-//https://www.youtube.com/shorts/EHlEnKBJ4L4
-
 function submitUrl(){
     const InputtedUrl = document.getElementById("InputtedUrl");
     var fullurl = InputtedUrl.value;
@@ -493,5 +488,3 @@ function clickPBH(){
 
 
 //Bの時間操作ここまで
-
-//https://youtu.be/9Hx7044o0sk
